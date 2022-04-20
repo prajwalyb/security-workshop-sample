@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building'
                 script {
                     
-                    sh "./gradlew bundle${VARIANT}"
+                    sh "./gradlew bundleRelease"
                 }
             }
         }
