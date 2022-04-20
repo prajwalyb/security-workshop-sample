@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages{
         stage('Build Bundle') {
            
             steps {
@@ -10,4 +11,5 @@ pipeline {
                 }
             }
         }
+}
 }
